@@ -1,6 +1,13 @@
 import { ModeToggle } from "../ModeToggle";
 
 export default function Header() {
+  const options = [
+    { label: "home", value: "home" },
+    { label: "about", value: "about" },
+    { label: "work", value: "work" },
+    { label: "contact", value: "contact" },
+  ];
+
   return (
     <header className="py-2 flex items-center justify-between px-4">
       <div className="flex items-center gap-2">
@@ -8,10 +15,15 @@ export default function Header() {
         <p>taveira</p>
       </div>
       <div className="flex items-center gap-4">
-        <p>home</p>
-        <p>about</p>
-        <p>work</p>
-        <p>contact</p>
+        {options.map((option) => (
+          <p
+            key={option.value}
+            id={`#${option.value}`}
+            className="cursor-pointer"
+          >
+            {option.label}
+          </p>
+        ))}
         <ModeToggle />
       </div>
     </header>
