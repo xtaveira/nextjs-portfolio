@@ -1,6 +1,13 @@
 import { ModeToggle } from "../ModeToggle";
 
 export default function Header() {
+  const items = [
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Work", href: "#work" },
+    { name: "Contact", href: "#contact" },
+  ];
+
   return (
     <header className="py-2 flex items-center justify-between px-4">
       <div className="flex items-center gap-2">
@@ -8,10 +15,11 @@ export default function Header() {
         <p>TAVEIRA</p>
       </div>
       <div className="flex items-center gap-4">
-        <p>Home</p>
-        <p>About</p>
-        <p>Work</p>
-        <p>Contact</p>
+        {items.map((item, index) => (
+          <a key={index} href={item.href}>
+            {item.name}
+          </a>
+        ))}
         <ModeToggle />
       </div>
     </header>
