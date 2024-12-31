@@ -4,11 +4,7 @@
 Welcome to my digital showcase! This repository highlights my projects and development skills, built with **Next.js** and **ShadCN**.
 
 ## 🌎 Deploy
-<<<<<<< HEAD
 - Check the Deploy on Vercel: [tvrweb.com.br](http://tvrweb.com.br)
-=======
-- Check the Deploy on Vercel: [davi.tvrweb.com.br](http://davi.tvrweb.com.br)
->>>>>>> a04e47d5be1ac7a348aece7e0bd42aa1c80931bd
 
 ## 🚀 About the Project
 
