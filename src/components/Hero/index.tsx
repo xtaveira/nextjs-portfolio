@@ -1,3 +1,4 @@
+import { GithubIcon, InstagramIcon, LinkedinIcon } from "lucide-react";
 import { Button } from "../ui/button";
 import {
   Card,
@@ -19,7 +20,7 @@ bg-gradient-to-t from-[#d7742e] to-[#f97316]
       >
         <CardHeader>
           <CardTitle className="text-background text-3xl sm:w-[70%] lg:w-[60%]">
-            Hey, I&apos;m Davi Taveira, the FullStack Developer that you are
+            Hey, I&apos;m Davi Taveira, the FullStack Developer that you were
             searching for
           </CardTitle>
         </CardHeader>
@@ -29,11 +30,31 @@ bg-gradient-to-t from-[#d7742e] to-[#f97316]
             efficiency.
           </p>
         </CardContent>
-        <CardFooter>
-          <Button>Contact</Button>
-          <p>intagram</p>
-          <p>linkedin</p>
-          <p>github</p>
+        <CardFooter className="gap-4">
+          <Button variant="outline" className="hover:text-orange-500">
+            Contact
+          </Button>
+          <a
+            target="_blank"
+            href="https://instagram.com/xtaveira"
+            className="cursor:pointer hover:text-foreground text-background"
+          >
+            <InstagramIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://linkedin.com/in/xtaveira"
+            className="cursor:pointer hover:text-foreground text-background"
+          >
+            <LinkedinIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/xtaveira"
+            className="cursor:pointer hover:text-foreground text-background"
+          >
+            <GithubIcon />
+          </a>
         </CardFooter>
       </Card>
       <Card className="md:w-[40%]">
