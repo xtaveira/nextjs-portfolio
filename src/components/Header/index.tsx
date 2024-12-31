@@ -9,14 +9,16 @@ export default function Header() {
   ];
 
   return (
-    <header className="py-2 flex items-center justify-between px-4">
+    <header className="py-2 w-[96%] flex items-center justify-between">
       <div className="flex items-center gap-2">
         <div className="bg-orange-500 rounded-full h-7 w-7"></div>
-        <p>TAVEIRA</p>
+        <a href="https://linkedin.com/in/xtaveira" target="_blank">
+          TAVEIRA
+        </a>
       </div>
       <div className="flex items-center gap-4">
         {items.map((item, index) => (
-          <a key={index} href={item.href}>
+          <a key={index} href={item.href} className="hover:text-orange-500">
             {item.name}
           </a>
         ))}
