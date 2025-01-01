@@ -38,13 +38,6 @@ bg-gradient-to-t from-[#d7742e] to-[#f97316]
           </a>
           <a
             target="_blank"
-            href="https://instagram.com/xtaveira"
-            className="cursor:pointer hover:text-foreground text-background"
-          >
-            <InstagramIcon />
-          </a>
-          <a
-            target="_blank"
             href="https://linkedin.com/in/xtaveira"
             className="cursor:pointer hover:text-foreground text-background"
           >
@@ -56,6 +49,13 @@ bg-gradient-to-t from-[#d7742e] to-[#f97316]
             className="cursor:pointer hover:text-foreground text-background"
           >
             <GithubIcon />
+          </a>
+          <a
+            target="_blank"
+            href="https://instagram.com/xtaveira"
+            className="cursor:pointer hover:text-foreground text-background"
+          >
+            <InstagramIcon />
           </a>
         </CardFooter>
       </Card>
