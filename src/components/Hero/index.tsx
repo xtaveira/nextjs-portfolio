@@ -1,4 +1,9 @@
-import { GithubIcon, InstagramIcon, LinkedinIcon } from "lucide-react";
+import {
+  DownloadIcon,
+  GithubIcon,
+  InstagramIcon,
+  LinkedinIcon,
+} from "lucide-react";
 import { Button } from "../ui/button";
 import {
   Card,
@@ -31,11 +36,6 @@ bg-gradient-to-t from-[#d7742e] to-[#f97316]
           </p>
         </CardContent>
         <CardFooter className="gap-4">
-          <a target="_blank" href="https://wa.me/5544988208778">
-            <Button variant="outline" className="hover:text-orange-500">
-              Talk with me
-            </Button>
-          </a>
           <a
             target="_blank"
             href="https://linkedin.com/in/xtaveira"
@@ -57,25 +57,18 @@ bg-gradient-to-t from-[#d7742e] to-[#f97316]
           >
             <InstagramIcon />
           </a>
+          <a
+            target="_blank"
+            href="https://drive.usercontent.google.com/download?id=1H1uw8HnWJLDzjkRrwnu85wdWRuJjVCUn&export=download&authuser=1&confirm=t&uuid=c356ac3d-a921-49a4-96bd-dd69627dc0f7&at=APvzH3p2bUlj5XR9v_uDz55LnzwI:1735740835320"
+          >
+            <Button variant="outline" className="hover:text-orange-500">
+              Resume
+              <DownloadIcon />
+            </Button>
+          </a>
         </CardFooter>
       </Card>
-      <Card className="md:w-[40%]">
-        <CardHeader>
-          <CardTitle>Project In Progress...</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p>
-            Follow the taks on GitHub:{" "}
-            <a
-              className="text-orange-500 font-bold"
-              target="_blank"
-              href="https://github.com/users/xtaveira/projects/1/views/1"
-            >
-              Tasks
-            </a>
-          </p>
-        </CardContent>
-      </Card>
+      <Card className="md:w-[40%] bg-personal-bg bg-cover bg-top"></Card>
     </div>
   );
 };
