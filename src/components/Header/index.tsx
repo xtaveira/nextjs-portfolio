@@ -1,12 +1,12 @@
 import { ModeToggle } from "../ModeToggle";
 
 export default function Header() {
-  const items = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Work", href: "#work" },
-    { name: "Contact", href: "#contact" },
-  ];
+  // const items = [
+  //   { name: "Home", href: "#home" },
+  //   { name: "About", href: "#about" },
+  //   { name: "Work", href: "#work" },
+  //   { name: "Contact", href: "#contact" },
+  // ];
 
   return (
     <header className="py-2 w-[96%] flex items-center justify-between">
