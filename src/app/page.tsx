@@ -1,13 +1,14 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
+import Progress from "@/components/Progress";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Hero />
-      <Projects />
+      {/* <Projects /> */}
+      <Progress />
     </>
   );
 }

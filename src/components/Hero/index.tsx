@@ -39,21 +39,21 @@ bg-gradient-to-t from-[#d7742e] to-[#f97316]
           <a
             target="_blank"
             href="https://linkedin.com/in/xtaveira"
-            className="cursor:pointer hover:text-foreground text-background"
+            className="cursor:pointer hover:text-orange-500 text-background bg-foreground rounded-full h-9 w-9 flex items-center justify-center"
           >
             <LinkedinIcon />
           </a>
           <a
             target="_blank"
             href="https://github.com/xtaveira"
-            className="cursor:pointer hover:text-foreground text-background"
+            className="cursor:pointer hover:text-orange-500 text-background bg-foreground rounded-full h-9 w-9 flex items-center justify-center"
           >
             <GithubIcon />
           </a>
           <a
             target="_blank"
             href="https://instagram.com/xtaveira"
-            className="cursor:pointer hover:text-foreground text-background"
+            className="cursor:pointer hover:text-orange-500 text-background bg-foreground rounded-full h-9 w-9 flex items-center justify-center"
           >
             <InstagramIcon />
           </a>

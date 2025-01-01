@@ -26,7 +26,7 @@ const Projects = () => {
         </CardHeader>
         <CardContent>
           <p>
-            Follow the taks on GitHub:{" "}
+            Follow the tasks on GitHub:{" "}
             <a
               className="text-orange-500 font-bold"
               target="_blank"
