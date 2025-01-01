@@ -17,7 +17,7 @@ export default function Header() {
         </a>
       </div>
       <div className="flex items-center gap-4">
-        {items.map((item, index) => (
+        {/* {items.map((item, index) => (
           <a
             key={index}
             href={item.href}
@@ -25,7 +25,7 @@ export default function Header() {
           >
             {item.name}
           </a>
-        ))}
+        ))} */}
         <ModeToggle />
       </div>
     </header>
