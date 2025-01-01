@@ -31,9 +31,11 @@ bg-gradient-to-t from-[#d7742e] to-[#f97316]
           </p>
         </CardContent>
         <CardFooter className="gap-4">
-          <Button variant="outline" className="hover:text-orange-500">
-            Contact
-          </Button>
+          <a target="_blank" href="https://wa.me/5544988208778">
+            <Button variant="outline" className="hover:text-orange-500">
+              Talk with me
+            </Button>
+          </a>
           <a
             target="_blank"
             href="https://instagram.com/xtaveira"

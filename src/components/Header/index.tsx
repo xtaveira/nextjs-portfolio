@@ -18,7 +18,11 @@ export default function Header() {
       </div>
       <div className="flex items-center gap-4">
         {items.map((item, index) => (
-          <a key={index} href={item.href} className="hover:text-orange-500">
+          <a
+            key={index}
+            href={item.href}
+            className="hidden sm:block hover:text-orange-500"
+          >
             {item.name}
           </a>
         ))}
